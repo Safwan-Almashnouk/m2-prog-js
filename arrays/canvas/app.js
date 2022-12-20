@@ -4,7 +4,7 @@ class App
     {
         
         console.log("bazinga")
-        for(i = 0; i < 200; i++){
+        for(let i = 0; i < 200; i++){
             let a = Math.floor(Math.random() * 1000)+1;
             let b = Math.floor(Math.random() * 1000)+1;
             this.drawCircle(a,b)
